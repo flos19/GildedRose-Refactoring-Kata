@@ -38,3 +38,9 @@ Test Cases for "Conjured Items":
 
 1:
 should decrease quality by 2 for Conjured item before sell date
+
+2:
+should decrease quality by 4 for Conjured item on sell date
+
+3:
+should decrease quality by 4 for Conjured item after sell date
