@@ -1,0 +1,34 @@
+Unit tests for requirements:
+
+1:
+should decrease quality and sellIn by 1 for regular item before sell date
+
+2:
+should decrease quality by 2 for regular item on sell date
+
+3:
+should decrease quality by 2 for regular item after sell date
+
+4:
+should increase quality and decrease sellIn by 1 for Aged Brie before sell date
+
+5:
+should increase quality by 2 for Aged Brie on sell date
+
+6:
+should increase quality by 2 for Aged Brie after sell date
+
+7:
+should not change quality or sellIn for Sulfuras
+
+8:
+should increase quality by 1 for Backstage passes with more than 10 days left
+
+9:
+should increase quality by 2 for Backstage passes with 10 days left
+
+10:
+should increase quality by 3 for Backstage passes with 5 days left
+
+11:
+should set quality to 0 for Backstage passes on sell date
