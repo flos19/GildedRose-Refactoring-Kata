@@ -32,3 +32,9 @@ should increase quality by 3 for Backstage passes with 5 days left
 
 11:
 should set quality to 0 for Backstage passes on sell date
+
+
+Test Cases for "Conjured Items":
+
+1:
+should decrease quality by 2 for Conjured item before sell date

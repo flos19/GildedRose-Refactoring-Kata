@@ -89,4 +89,12 @@ describe("Gilded Rose", function() {
     expect(items[0].quality).toEqual(0);
   });
 
+  // Test case for Conjured item before sell date
+  it("should decrease quality by 2 for Conjured item before sell date", function() {
+    const gildedRose = new Shop([ new Item("Conjured Item", 5, 10) ]);
+    const items = gildedRose.updateQuality();
+    expect(items[0].sellIn).toEqual(4);
+    expect(items[0].quality).toEqual(8);
+  });
+
 });
